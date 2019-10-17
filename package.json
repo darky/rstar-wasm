@@ -1,6 +1,6 @@
 {
   "name": "rstar-wasm",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "R-tree, which compiled to WebAssembly from rstar crate",
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,6 +15,13 @@
     "index",
     "point",
     "rectangle"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "pkg/rstar_wasm.js",
+    "pkg/rstar_wasm_bg.js",
+    "pkg/rstar_wasm_bg.wasm"
   ],
   "author": "Vladislav Botvin",
   "license": "MIT",
