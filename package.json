@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "wasm-pack build --target nodejs && tsc",
+    "build": "wasm-pack build --target nodejs && rm pkg/package.json pkg/.gitignore pkg/README.md && tsc",
     "test": "jest"
   },
   "keywords": [
