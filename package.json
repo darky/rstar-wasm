@@ -8,9 +8,14 @@
     "build": "wasm-pack build --target nodejs && rm pkg/package.json pkg/.gitignore pkg/README.md && tsc",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darky/rstar-wasm.git"
+  },
   "keywords": [
     "rtree",
     "r-tree",
+    "rstar",
     "spatial",
     "index",
     "point",
