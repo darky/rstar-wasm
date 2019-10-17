@@ -1,0 +1,19 @@
+[package]
+name = "rstar-wasm"
+version = "0.1.0"
+authors = ["Vladislav Botvin <darkvlados@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+lazy_static = "1.4.0"
+rstar = "0.5.1"
+wasm-bindgen = "0.2.51"
+
+[[bin]]
+name = "rstar-wasm"
+path = "src/lib.rs"

@@ -1,0 +1,6 @@
+/target
+**/*.rs.bk
+Cargo.lock
+/node_modules
+/index.js
+/index.d.ts
